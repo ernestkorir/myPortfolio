@@ -1,0 +1,128 @@
+
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  gap: 210px;
+  color: #6070ff;
+}
+
+.logo {
+  width: 76px;
+  height: 20px;
+  margin-top: 25px;
+  margin-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  text-decoration: none;
+}
+
+.Right {
+  margin-left: 20px;
+}
+
+.fa-bars {
+  width: 40px;
+  height: 40px;
+  margin-top: 25px;
+}
+
+.Intro {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 43px;
+  color: #172b4d;
+  margin-top: 40%;
+  display: flex;
+  align-items: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.description {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 15px;
+}
+
+.media-text {
+  display: flex;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  white-space: nowrap;
+}
+
+.home-page-section {
+  background-image: url(./assets/header-shapes\ mobile.svg);
+  background-size: contain;
+  background-repeat: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 16px;
+  width: 117px;
+  height: 45px;
+}
+
+.icons {
+  margin-top: 0;
+  margin-left: 15px;
+  padding-left: 0;
+  width: 170.17px;
+  height: 10px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  display: flex;
+  gap: 12px;
+  color: #505f79;
+  list-style: none;
+}
+
+@media (min-width: 960px) {
+  body {
+    background-color: #fff;
+    position: absolute;
+    width: 360px;
+    height: 740px;
+    left: 0;
+    top: 0;
+    margin: 0;
+  }
+}
+
+.media-link {
+  color: #505f79;
+  margin-right: 20px;
+}
+
+.media-link:hover {
+  color: aqua;
+}
+
+.right-icons {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
